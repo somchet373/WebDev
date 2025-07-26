@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ระบบขายของที่ระลึก 30 ปี วิทยาการคอมพิวเตอร์ - หน้าแอดมิน</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <div class="max-w-5xl mx-auto py-8 px-4">
+    <h1 class="text-3xl font-bold text-center mb-6">ระบบจัดการสินค้า (Admin)</h1>
+
+    <form class="space-y-6">
+      <div class="bg-white p-6 rounded shadow">
+        <h2 class="text-xl font-semibold mb-4">จัดการ Stock เสื้อ</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <input type="text" placeholder="สีเสื้อ" class="p-2 border rounded w-full">
+          <input type="text" placeholder="ขนาด" class="p-2 border rounded w-full">
+          <input type="number" placeholder="ราคา" class="p-2 border rounded w-full">
+          <input type="file" class="p-2 border rounded w-full">
+        </div>
+      </div>
+
+      <div class="bg-white p-6 rounded shadow">
+        <h2 class="text-xl font-semibold mb-4">สินค้าอื่น ๆ</h2>
+        <div class="grid grid-cols-2 gap-4">
+          <label><input type="checkbox"> กระเป๋า</label>
+          <label><input type="checkbox"> แก้ว</label>
+          <label><input type="checkbox"> หมวก</label>
+          <label><input type="checkbox"> ร่ม</label>
+          <label><input type="checkbox"> เข็มกลัด</label>
+          <label><input type="checkbox"> สมุด</label>
+          <label><input type="checkbox"> ปากกา</label>
+        </div>
+      </div>
+
+      <button class="bg-blue-600 text-white px-4 py-2 rounded">บันทึกข้อมูลสินค้า</button>
+    </form>
+  </div>
+</body>
+</html>

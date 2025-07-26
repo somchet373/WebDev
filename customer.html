@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>สั่งซื้อของที่ระลึก 30 ปี วิทยาการคอมพิวเตอร์</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-blue-50 text-gray-800">
+  <div class="max-w-2xl mx-auto py-8 px-4">
+    <h1 class="text-2xl font-bold text-center mb-6">แบบฟอร์มสั่งซื้อของที่ระลึก</h1>
+
+    <form class="space-y-4">
+      <input type="text" placeholder="ชื่อ-นามสกุล" class="w-full p-2 border rounded">
+      <input type="text" placeholder="ที่อยู่" class="w-full p-2 border rounded">
+      <input type="tel" placeholder="เบอร์โทร" class="w-full p-2 border rounded">
+
+      <label class="block font-medium">เลือกรายการสินค้า</label>
+      <textarea placeholder="ระบุรายละเอียดสินค้า เช่น เสื้อ M สีดำ, หมวก 1 ใบ ฯลฯ" class="w-full p-2 border rounded"></textarea>
+
+      <label class="block font-medium">อัปโหลดสลิปโอนเงิน</label>
+      <input type="file" class="w-full p-2 border rounded">
+
+      <label class="block font-medium">วันที่สั่งซื้อ</label>
+      <input type="date" class="w-full p-2 border rounded">
+
+      <label class="block font-medium">การรับสินค้า</label>
+      <select class="w-full p-2 border rounded">
+        <option>จัดส่ง</option>
+        <option>รับเองที่มหาวิทยาลัย</option>
+      </select>
+
+      <label class="block font-medium">ช่องทางชำระเงิน</label>
+      <select class="w-full p-2 border rounded">
+        <option>โอนผ่านธนาคาร</option>
+        <option>PromptPay</option>
+        <option>อื่น ๆ</option>
+      </select>
+
+      <button class="bg-green-600 text-white px-4 py-2 rounded">ยืนยันการสั่งซื้อ</button>
+    </form>
+  </div>
+</body>
+</html>
